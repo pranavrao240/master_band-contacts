@@ -1,5 +1,4 @@
 
-function submit(){
 const form = document.querySelector('form');
       const subjectInput = document.querySelector('#subject');
       const messageInput = document.querySelector('#message');
@@ -9,8 +8,8 @@ const form = document.querySelector('form');
 
         const subject = encodeURIComponent(subjectInput.value);
         const message = encodeURIComponent(messageInput.value);
-        const mailtoLink = `mailto:pranavrao210@gmail.com?subject=${subject}&body=${message}`;
+        const mailtoLink = `mailto:mayur001149@gmail.com?subject=${subject}&body=${message}`;
 
         window.location.href = mailtoLink;
-      });}
+      });
 
